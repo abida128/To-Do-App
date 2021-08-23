@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>To DO App</title>
+  <!-- link to CSS file -->
+    <link rel="stylesheet" href="style.css">
+
+    <!--link to Bootsrap-->
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous"> -->
+   
+
+  <!-- font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+</head>
+
+<body>
+  <div class="container ">
+    <div class="app">
+      <h1 class="header">You Have 3 ToDos</h1>
+      
+      <ul class="list">
+        <li>
+          <span>Task 1</span>
+          <i class="far fa-window-close" onclick="removeTask(this)"></i>
+        </li>
+      </ul>
+
+      <form class="form">
+        <input type="text" placeholder="Add new task...">
+        <button type="submit" class="btn" onclick="addTask();return false">Add Task</button>
+      </form>
+
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+
+</html>
