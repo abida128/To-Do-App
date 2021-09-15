@@ -26,8 +26,8 @@
 - Open index.html file in browser.
 
 # Repo Link:
-    https://github.com/abida128/To-Do-App.git
+  https://github.com/abida128/To-Do-App.git
 
 
 # Live Link:
-    https://codepen.io/abida128/pen/GRERvoo
+  https://codepen.io/abida128/pen/GRERvoo
